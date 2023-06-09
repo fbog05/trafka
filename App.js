@@ -28,9 +28,9 @@ export default function App() {
 
       <Text style={styles.count}>{count}</Text>
 
-      <Button title="Növel" onPress={increment}/>
-      <Button title="Reset" onPress={reset}/>
-      <Button title="Csökkent" onPress={decrement}/>
+      <Button title="Növel" onPress={ increment }/>
+      <Button title="Reset" onPress={ reset }/>
+      <Button title="Csökkent" onPress={ decrement }/>
 
       <StatusBar style="auto" />
     </View>
